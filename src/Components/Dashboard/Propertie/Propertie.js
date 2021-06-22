@@ -7,7 +7,7 @@ import { BiArea } from 'react-icons/bi';
 const Propertie = ({propertie}) => {
     const {title, price, location, beds, batsh, area, img} = propertie;
     return (
-        <div className='col-md-4 mb-4'>
+        <div className='col-md-4 mb-4 rounded'>
             <div className="card border-0 shadow">
                 <img src={img} className="card-img-top" alt="..." />
                 <div className="card-body">
