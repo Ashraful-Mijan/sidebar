@@ -5,6 +5,7 @@ import Layout from './Components/Layout';
 import './styles/App.scss';
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
 // messages={messages[locale]}
 function App() {
   const [locale, setLocale] = useState('en');
