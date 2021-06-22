@@ -1,5 +1,4 @@
 import React from 'react';
-import { useIntl } from 'react-intl';
 import {
   ProSidebar,
   Menu,
@@ -14,7 +13,6 @@ import { GrServices } from 'react-icons/gr';
 import { RiContactsLine } from 'react-icons/ri';
 
 const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar, handleCollapsedChange }) => {
-  const intl = useIntl();
   return (
     <ProSidebar
       rtl={rtl}
@@ -63,14 +61,14 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar, handleColl
           <MenuItem
             icon={<FaHome className='fs-4' />}
           >
-            {intl.formatMessage({ id: 'home' })}
+            Home
           </MenuItem>
           <MenuItem icon={<GoPerson className='fs-4' />}>
-            {intl.formatMessage({ id: 'about' })}
+            About
           </MenuItem>
-          <MenuItem icon={<ImBlogger className='fs-4' />}> {intl.formatMessage({ id: 'blog' })}</MenuItem>
-          <MenuItem icon={<GrServices className='fs-4' />}> {intl.formatMessage({ id: 'services' })}</MenuItem>
-          <MenuItem icon={<RiContactsLine className='fs-4' />}> {intl.formatMessage({ id: 'contacts' })}</MenuItem>
+          <MenuItem icon={<ImBlogger className='fs-4' />}> Blog </MenuItem>
+          <MenuItem icon={<GrServices className='fs-4' />}> Services </MenuItem>
+          <MenuItem icon={<RiContactsLine className='fs-4' />}> Contacts </MenuItem>
         </Menu>
       </SidebarContent>
     </ProSidebar>
@@ -78,3 +76,5 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar, handleColl
 };
 
 export default Aside;
+
+// intl.formatMessage
