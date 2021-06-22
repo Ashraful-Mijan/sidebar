@@ -11,6 +11,7 @@ import { GoPerson } from 'react-icons/go';
 import { ImBlogger } from 'react-icons/im';
 import { GrServices } from 'react-icons/gr';
 import { RiContactsLine } from 'react-icons/ri';
+import { AiFillFilter } from 'react-icons/ai';
 
 const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar, handleCollapsedChange }) => {
   return (
@@ -69,6 +70,7 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar, handleColl
           <MenuItem icon={<ImBlogger className='fs-4' />}> Blog </MenuItem>
           <MenuItem icon={<GrServices className='fs-4' />}> Services </MenuItem>
           <MenuItem icon={<RiContactsLine className='fs-4' />}> Contacts </MenuItem>
+          <MenuItem icon={<AiFillFilter className='fs-4' />}> Filter </MenuItem>
         </Menu>
       </SidebarContent>
     </ProSidebar>
