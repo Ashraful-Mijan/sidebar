@@ -50,8 +50,8 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar, handleColl
               </svg>
               :
               <svg onClick={handleCollapsedChange} data-name="Layer 1" viewBox="0 0 64 64" width="40" height="25">
-                <line x1="9.37" x2="54.63" y1="9.37" y2="54.63" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="12" />
-                <line x1="9.37" x2="54.63" y1="54.63" y2="9.37" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="12" /></svg>
+                <line x1="9.37" x2="54.63" y1="9.37" y2="54.63" fill="none" stroke="#fff" strokeMiterlimit="10" stroke-width="12" />
+                <line x1="9.37" x2="54.63" y1="54.63" y2="9.37" fill="none" stroke="#fff" strokeMiterlimit="10" stroke-width="12" /></svg>
 
             }
 
