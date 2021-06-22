@@ -1,7 +1,7 @@
 import './App.css';
 import { IntlProvider } from 'react-intl';
 import Layout from './Components/Layout';
-import messages from './Components/message';
+import  messages from './Components/message';
 import './styles/App.scss';
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';

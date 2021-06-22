@@ -4,9 +4,7 @@ import {
   ProSidebar,
   Menu,
   MenuItem,
-  SubMenu,
   SidebarHeader,
-  SidebarFooter,
   SidebarContent,
 } from 'react-pro-sidebar';
 import { FaHome, } from 'react-icons/fa';

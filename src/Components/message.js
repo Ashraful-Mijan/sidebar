@@ -1,4 +1,4 @@
-export default {
+export default  {
     en: {
       title: 'React Pro Sidebar',
       sidebarTitle: 'Pro Sidebar',

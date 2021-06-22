@@ -1,7 +1,5 @@
 import React from 'react';
-import { useIntl } from 'react-intl';
-import Switch from 'react-switch';
-import { FaBars } from 'react-icons/fa';
+// import { useIntl } from 'react-intl';
 import './Main.css'
 
 const Main = ({
@@ -13,7 +11,7 @@ const Main = ({
   handleRtlChange,
   handleImageChange,
 }) => {
-  const intl = useIntl();
+  // const intl = useIntl();
   return (
     <main className='main'>
 
